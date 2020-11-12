@@ -166,7 +166,7 @@ export default class Work extends Component {
               </Scene>
             </Controller>
 
-            <div style={{paddingBottom: "70px"}}>
+            <div style={{paddingBottom: "40px"}}>
             </div>
           </div>
     );
