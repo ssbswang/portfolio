@@ -155,9 +155,9 @@ export default class Work extends Component {
                         <img className="work-logo" src={patrick} style={{padding: "0px 20px 0px 20px"}}/>
                         <div style={{paddingTop: "10px"}}>Personal Projects<span className="work-time"> ongoing</span></div>
                         <span className="work-title">
-                  <a href="http://18.221.188.71:3001" target="_blank" rel="noreferrer noopener" style={{textDecoration: "none", color: "dodgerblue"}}>My Market Mix</a>
+                  <a href="http://18.221.188.71:3001" target="_blank" rel="noreferrer noopener" style={{textDecoration: "none", color: "dodgerblue"}}>MyMarketMix</a>
                   <a href="https://github.com/ssbswang?tab=repositories" target="_blank" rel="noreferrer noopener" style={{textDecoration: "none", color: "coral"}}>, Hermes</a>
-                  <a href="https://github.com/ssbswang?tab=repositories" target="_blank" rel="noreferrer noopener" style={{textDecoration: "none", color: "orchid"}}>, Psy</a>
+                  <a href="https://github.com/ssbswang?tab=repositories" target="_blank" rel="noreferrer noopener" style={{textDecoration: "none", color: "orchid"}}>, this portfolio</a>
                 </span>
                       </div>
                     </div>
