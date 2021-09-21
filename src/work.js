@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.scss';
+import ritual from './logo/ritual.jpeg';
 import kira from './logo/kira.svg';
 import teradata from './logo/teradata.png';
 import skymattix from './logo/skymattix.png';
@@ -23,6 +24,34 @@ export default class Work extends Component {
               <Scene triggerHook="1" triggerElement="this" duration="200%">
                 <Timeline>
                   <Tween
+                      duration="0.1"
+                      from={{
+                        top: '5%',
+                        scale: 0.90,
+                        yPercent: 40
+                      }}
+                      to={{
+                        top: '0%',
+                        scale: 1,
+                        yPercent: 20
+                      }}>
+                    <div className="work-row">
+                      <div className="work-company">
+                        <img className="work-logo" src={ritual} style={{ padding: "0px 50px 10px 30px"}}/>
+                        <div style={{ padding: "20px 0px 0px 0px"}}>Ritual Co<span className="work-time"> 2021-present</span></div>
+                        <span className="work-title">
+                          Software Engineer III
+                        </span>
+                      </div>
+                    </div>
+                  </Tween>
+                </Timeline>
+              </Scene>
+            </Controller>
+            <Controller>
+              <Scene triggerHook="1" triggerElement="this" duration="200%">
+                <Timeline>
+                  <Tween
                       duration="0.2"
                       from={{
                         top: '5%',
@@ -32,12 +61,12 @@ export default class Work extends Component {
                       to={{
                         top: '0%',
                         scale: 1,
-                        yPercent: 0
+                        yPercent: 10
                       }}>
                     <div className="work-row">
                       <div className="work-company">
                         <img className="work-logo" src={kira} style={{ paddingRight: "40px"}}/>
-                        <div>Kira Systems<span className="work-time"> 2019-present</span></div>
+                        <div>Kira Systems<span className="work-time"> 2019-2021</span></div>
                         <span className="work-title">
                           Intermediate Quality Engineer
                         </span>

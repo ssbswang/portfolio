@@ -86,8 +86,9 @@ export default class App extends Component {
             </header>
           <div className="row content ness">
             <div className="header-row" >Hi, I'm Shu <br></br></div>
-            <div className="header-row">I’m an interdisciplinary <span className="black">software engineer</span> living in Toronto.
-              Currently I work at <span className="black">Kira Systems</span>, transforming enterprises to use answers from their documents.</div>
+            <div className="header-row">I’m a <span className="black">software engineer</span> living in Toronto
+              and working at <span className="black">Ritual Co</span>, empowering local businesses through online
+              ordering platform.</div>
           </div>
             <div className="row content">
               <div id="work">

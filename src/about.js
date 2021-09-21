@@ -31,8 +31,8 @@ export default class About extends Component {
               years to come.<br/><br/>
 
               Depending on the team, resources and deliverables I've worn many hats over
-              the years - holding responsibilities like cutting releases, integrating
-              DevOps pipeline, as well as performing development and QA delegations 🎩 <br/>
+              the years - holding responsibilities on frontend & backend work, cutting releases, integrating
+              DevOps pipeline and many more 🎩 <br/>
             </p>
           </div>
 
